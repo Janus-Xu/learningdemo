@@ -8,6 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <artifactId>learningdemo</artifactId>
     </parent>
+
     <groupId>pers.janus</groupId>
     <artifactId>springcloud</artifactId>
     <packaging>pom</packaging>
@@ -15,9 +16,8 @@
     <name>springcloud</name>
 
     <modules>
-        <!--eureka 项目demo-->
-        <module>eureka-server</module>
-        <module>eureka-client</module>
+        <!--eureka-->
+        <module>eureka</module>
     </modules>
 
 </project>
