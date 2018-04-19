@@ -7,19 +7,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author janus
- * class HelloController
- * created On 2018/4/19 16:39
- * description
+ *         class HiController
+ *         created On 2018/4/19 22:48
+ *         description
  */
 @RestController
-public class HelloController {
+public class HiController {
 
     @Autowired
-    HelloService helloService;
+    SchedualServiceHi schedualServiceHi;
 
-    @GetMapping("/hi")
-    public String hi(@RequestParam(value = "name") String name){
-        return helloService.hiService(name);
+    @GetMapping(value = "/hi")
+    public String sayHi(@RequestParam String name){
+        return schedualServiceHi.sayHiFromClientOne(name);
     }
-
 }

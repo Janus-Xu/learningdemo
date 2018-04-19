@@ -18,6 +18,7 @@
     <modules>
         <!--eureka-->
         <module>eureka</module>
+        <module>service-ribbon</module>
     </modules>
 
 </project>
