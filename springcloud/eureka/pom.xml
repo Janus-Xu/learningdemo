@@ -11,5 +11,10 @@
 
     <artifactId>eureka</artifactId>
 
+    <modules>
+        <module>simple-client</module>
+        <module>simple-server</module>
+    </modules>
+
 
 </project>
